@@ -8,12 +8,34 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
 .Container{
   max-width: 1000px;
   padding: 15px;
   margin: 0 auto;
+}
+.ShowModal{
+    display: flex;
+    justify-content: center;
+}
+.ShowModalBtn{
+    padding: 15px 20px;
+    color: #fff;
+    border: transparent;
+    background: linear-gradient(90deg, #e91e63 0%, #9c27b0 100%);
+    box-shadow: 0 2px 2px #ccc;
+    font-weight: bold;
+    outline: none;
+}
+.close{
+    border-radius: 50%;
+    font-size: 16px;
+    padding: 15px 20px;
+}
+.CloseBlock{
+    display: flex;
+    justify-content: center;
+}
+.ShowModalBtn:hover{
+    cursor: pointer;
+    background: linear-gradient(10deg, #9c27b0 10%, #e91e63 70%);
 }

@@ -1,0 +1,8 @@
+.ModalTitle{
+    border-bottom: 1px solid #ccc;
+    box-shadow: inset -6px -14px 36px -14px rgba(73,73,75,0.87);
+    background: linear-gradient(45deg, #e91e63 0, #9C27AA 90%);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
