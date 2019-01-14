@@ -24,12 +24,15 @@ body {
     background: linear-gradient(90deg, #e91e63 0%, #9c27b0 100%);
     box-shadow: 0 2px 2px #ccc;
     font-weight: bold;
+    margin: 0 0 20px;
     outline: none;
 }
-.close{
+.closeBtn{
     border-radius: 50%;
     font-size: 16px;
-    padding: 15px 20px;
+    padding: 10px 20px;
+    width: 52px;
+    height: 50px;
 }
 .CloseBlock{
     display: flex;
